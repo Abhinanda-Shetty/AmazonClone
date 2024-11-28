@@ -1,0 +1,263 @@
+                                            /* WEDNESDAY 27/11/2024 */
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #01091a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+ height: 50px;
+ width: 125px;
+
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 92%;
+    background-size: cover;
+    margin: 1px;
+   
+}
+
+.border {
+border: 2px solid transparent;
+}
+
+.border:hover{
+border: 2.23px solid rgb(255, 255, 255);
+border-end-end-radius: 1px;
+border-end-start-radius: 1px;
+}
+
+/* Adrress box 2 */
+.first-address{
+color: #cccccc;
+font-size: 0.81rem;
+margin-left: 16px;
+}
+
+.second-address{
+color:#ffffff;
+font-size: 1rem ;
+margin-left:3px;
+align-items: center;
+font-weight: 600;
+
+}
+
+.add-icon{
+        align-items: center;
+        display: flex;
+        color: #a8b8db;
+}
+
+.nav-address{
+   height: 38px;
+   width: 141.23;
+   align-items: center;
+   padding-top: 0.711111%;
+}
+
+/* BOX:3 */
+.nav-search{
+    display: flex;
+    width:1065.98px ;
+   
+    height: 45px;
+    border-radius:5px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+  background-color: #e6e6e6;
+  height: 45px;
+  width: 4.8%;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+
+.search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+
+}
+
+.search-icon{
+    display: flex;
+    width: 52px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 162, 65);
+    font-size: 1.38rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #01091a;
+}
+
+/* BOX:4 */
+.lang{
+    width: 61px;
+    height: 40px;
+    background-color:#01091a;
+    display: flex;
+    align-items: center;
+}
+.lang-flag{
+    height: 48px;
+    width: 21.6px;
+    object-fit:contain;
+}
+.lang-select{
+    background-color: #01091a;
+    color: white;
+    align-items: center;
+    border: none;
+    font-size: 1rem;
+    font-family:blinkMacSystemFont;
+}
+
+/* BOX:5 */
+span{
+    font-size: 0.91rem;
+    color:#e6e1e1 ;
+    font-family: 'Arial';
+    font-weight: 300;
+}
+
+
+.signinOpt{
+    background-color: #01091a;
+    color: #ffffff;
+    font-size: 0.94rem;
+    border: none;
+    margin-left: -4px;
+    font-weight: 700;
+}
+
+/* BOX:6 */
+.cart{
+display: flex;
+font-size: 29.3px;
+align-items: center;
+}
+
+
+.cartText{
+font-family: 'Courier New';
+font-size: 22px;
+margin-right: 2px;
+margin-top: 6.922px;
+font-weight: 668;
+}
+/* 28/11/2024 Thursday */
+/* panal section  */
+.panel{
+    display: flex;
+    background-color: #222f3d;
+     height: 40px;
+     align-items: center;
+    }
+    .panel-all{
+        height: 30px;
+        align-items: center;
+        display: flex;
+    }
+    .panel-all-two{
+        margin-left: 4px;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+.panal-opts{
+    display: flex;
+    color: white;
+    width: 97%; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panal-opt{
+    font-size: 1.1rem;
+        align-items: center;
+    font-weight: 600;
+    
+}
+
+.panal-select{
+    border: none;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    margin-bottom: 0px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* Hero section  */
+.hero-section{
+    background-image:url(heroImage._SX3000_.jpg);
+    height: 600px;
+    width: 100%;    
+    background-size: cover  ;
+
+}
+
+/* shopping section  */
+.shop-section{
+    display: flex;
+    margin-top: -250px;
+    
+    justify-content: space-evenly;
+    background: linear-gradient(0deg, rgba(252,161,120,1) 0%, rgb(236, 128, 78) 30%, rgb(252, 107, 45) 66%, rgb(245, 92, 26) 100%);
+    /* Above line is used to fade and merge the background image color */
+   
+  
+}
+.box{
+     border: 2px solid rgb(185, 183, 183);    
+    height: 500px;
+    width: 23%;
+    background-color: white;
+}
+
+.box-heading{
+    font-size: 1.6rem;
+    font-family:'Cambria';
+    font-weight: 900;
+    width: 97%;
+    margin-inline-start: 3.5%;
+    margin-bottom: 4%;
+    margin-top: 29px;
+}
+
+.box-img{
+    height: 380px;
+    width: 90%;
+    margin-left: 20px;
+    align-items: center;
+    background-size: cover;
+}
+
+.url{
+    font-size: 1.3rem;
+    margin-left: 28px;
+    margin-top: auto;
+    font-weight: 700;
+ 
+}
