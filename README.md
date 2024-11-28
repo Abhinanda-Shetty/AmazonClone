@@ -1,3 +1,3 @@
 <center><h1>AMAZON WEBSITE CLONE</h1></center>
 It's better if you open this website and adjust screen to 67% zoomed.........
-Link for this Amazon Website Clone : <a>https://abhinanda-shetty.github.io/AmazonClone/ </a>
+<p>Link for this Amazon Website Clone : <a href="https://abhinanda-shetty.github.io/AmazonClone/">https://abhinanda-shetty.github.io/AmazonClone/ </a>
