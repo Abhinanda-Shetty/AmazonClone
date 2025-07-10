@@ -261,3 +261,136 @@ font-weight: 668;
     font-weight: 700;
  
 }
+
+
+
+/* ---------- Responsive shop section ---------- */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin-top: -250px;
+    background: linear-gradient(0deg, rgba(252, 161, 120, 1) 0%, rgb(236, 128, 78) 30%, rgb(252, 107, 45) 66%, rgb(245, 92, 26) 100%);
+}
+
+.box {
+    flex: 1 1 250px;
+    /* Minimum width 250px, can grow */
+    max-width: 300px;
+    height: auto;
+    background-color: white;
+    border: 2px solid rgb(185, 183, 183);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.box-img {
+    width: 100%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.url {
+    margin-top: auto;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .nav-logo,
+    .nav-address,
+    .lang,
+    .nav-signin,
+    .order,
+    .cart {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .nav-search {
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: 40px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .search-select {
+        width: 20%;
+        font-size: 0.9rem;
+    }
+
+    .search-input {
+        width: 65%;
+        font-size: 1rem;
+    }
+
+    .search-icon {
+        width: 15%;
+        font-size: 1rem;
+        padding: 0 5px;
+    }
+
+    /* Panel tối ưu lại layout */
+    .panel {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panal-opts {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .panel-all,
+    .panal-opt,
+    .panal-select {
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+
+    /* Hero section nên giảm chiều cao */
+    .hero-section {
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Giảm font chữ nếu cần */
+    body {
+        font-size: 14px;
+    }
+
+    /* Fix phần Text chồng lên banner */
+    .nav-signin span,
+    .order span,
+    .cartText {
+        font-size: 0.85rem;
+    }
+}
