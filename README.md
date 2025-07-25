@@ -1,8 +1,3 @@
-<center><h1>AMAZON WEBSITE CLONE</h1></center>
-It's better if you open this website in a desktop mode and adjust screen to 67% zoomed.........
-<p>This is just a Fronthend..... No Backend is uploaded yet....
-<p>Link for this Amazon Website Clone : <a href="https://abhinanda-shetty.github.io/AmazonClone/">https://abhinanda-shetty.github.io/AmazonClone/ </a>
-
 <style>
 @keyframes fadeInOut {
   0%, 100% { opacity: 0; }
